@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CatchTheGeraltGame" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yD8-4p-RNm">
+                                <rect key="frame" x="16" y="87" width="361" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="1oj-lI-31s"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score :" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CG1-2V-IKa">
+                                <rect key="frame" x="16" y="131" width="361" height="38"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="38" id="gan-K9-n5N"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="geraltOfRivia" translatesAutoresizingMaskIntoConstraints="NO" id="nQc-lk-uYw">
+                                <rect key="frame" x="16" y="217" width="110" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="GiG-uH-g11"/>
+                                    <constraint firstAttribute="width" constant="110" id="Zxh-6h-yV8"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="geraltOfRivia" translatesAutoresizingMaskIntoConstraints="NO" id="a6C-5f-7OU">
+                                <rect key="frame" x="141" y="217" width="110" height="150"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="geraltOfRivia" translatesAutoresizingMaskIntoConstraints="NO" id="0EN-Qf-TQB">
+                                <rect key="frame" x="267" y="217" width="110" height="150"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="geraltOfRivia" translatesAutoresizingMaskIntoConstraints="NO" id="r0X-yL-w6R">
+                                <rect key="frame" x="16" y="384" width="110" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="xai-6t-N2j"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="geraltOfRivia" translatesAutoresizingMaskIntoConstraints="NO" id="Lpm-5m-y79">
+                                <rect key="frame" x="141" y="384" width="110" height="150"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="geraltOfRivia" translatesAutoresizingMaskIntoConstraints="NO" id="Wuo-wu-Ypa">
+                                <rect key="frame" x="267" y="384" width="110" height="150"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="geraltOfRivia" translatesAutoresizingMaskIntoConstraints="NO" id="V07-x1-Xk8">
+                                <rect key="frame" x="16" y="551" width="110" height="150"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="geraltOfRivia" translatesAutoresizingMaskIntoConstraints="NO" id="Bj7-j1-uXU">
+                                <rect key="frame" x="141" y="551" width="110" height="150"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="geraltOfRivia" translatesAutoresizingMaskIntoConstraints="NO" id="0Qq-q3-UlS">
+                                <rect key="frame" x="267" y="551" width="110" height="150"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="High Score : " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WHn-DP-Ob4">
+                                <rect key="frame" x="16" y="742" width="361" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="425-ee-jIw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="yD8-4p-RNm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="0b4-1M-gJT"/>
+                            <constraint firstItem="Bj7-j1-uXU" firstAttribute="bottom" secondItem="0Qq-q3-UlS" secondAttribute="bottom" id="1FT-B9-gO8"/>
+                            <constraint firstItem="a6C-5f-7OU" firstAttribute="bottom" secondItem="0EN-Qf-TQB" secondAttribute="bottom" id="2o1-mX-2gP"/>
+                            <constraint firstItem="CG1-2V-IKa" firstAttribute="leading" secondItem="nQc-lk-uYw" secondAttribute="leading" id="3o9-Rf-o9X"/>
+                            <constraint firstItem="Wuo-wu-Ypa" firstAttribute="leading" secondItem="0Qq-q3-UlS" secondAttribute="leading" id="6m3-a4-6Nl"/>
+                            <constraint firstItem="CG1-2V-IKa" firstAttribute="top" secondItem="yD8-4p-RNm" secondAttribute="bottom" constant="8" id="BJ2-Jg-2vg"/>
+                            <constraint firstItem="r0X-yL-w6R" firstAttribute="leading" secondItem="V07-x1-Xk8" secondAttribute="leading" id="CCo-zg-LZc"/>
+                            <constraint firstItem="0EN-Qf-TQB" firstAttribute="leading" secondItem="Wuo-wu-Ypa" secondAttribute="leading" id="CGU-pc-dht"/>
+                            <constraint firstItem="nQc-lk-uYw" firstAttribute="leading" secondItem="r0X-yL-w6R" secondAttribute="leading" id="EdN-1p-7VI"/>
+                            <constraint firstItem="Lpm-5m-y79" firstAttribute="leading" secondItem="Bj7-j1-uXU" secondAttribute="leading" id="Egf-Jj-ryP"/>
+                            <constraint firstItem="Lpm-5m-y79" firstAttribute="top" secondItem="Wuo-wu-Ypa" secondAttribute="top" id="FJS-dn-wcr"/>
+                            <constraint firstItem="0Qq-q3-UlS" firstAttribute="trailing" secondItem="WHn-DP-Ob4" secondAttribute="trailing" id="GnX-6X-VaM"/>
+                            <constraint firstItem="yD8-4p-RNm" firstAttribute="leading" secondItem="CG1-2V-IKa" secondAttribute="leading" id="Kgj-dz-VRc"/>
+                            <constraint firstItem="0EN-Qf-TQB" firstAttribute="trailing" secondItem="Wuo-wu-Ypa" secondAttribute="trailing" id="LTi-Nc-Z5U"/>
+                            <constraint firstItem="V07-x1-Xk8" firstAttribute="top" secondItem="r0X-yL-w6R" secondAttribute="bottom" constant="17" id="LaU-rc-5Ky"/>
+                            <constraint firstItem="a6C-5f-7OU" firstAttribute="leading" secondItem="nQc-lk-uYw" secondAttribute="trailing" constant="15" id="NgI-PS-LRw"/>
+                            <constraint firstItem="CG1-2V-IKa" firstAttribute="trailing" secondItem="0EN-Qf-TQB" secondAttribute="trailing" id="Oc4-Ru-XXZ"/>
+                            <constraint firstItem="r0X-yL-w6R" firstAttribute="top" secondItem="nQc-lk-uYw" secondAttribute="bottom" constant="17" id="Rzz-MC-VgD"/>
+                            <constraint firstItem="a6C-5f-7OU" firstAttribute="trailing" secondItem="Lpm-5m-y79" secondAttribute="trailing" id="StP-Jc-7bR"/>
+                            <constraint firstItem="r0X-yL-w6R" firstAttribute="trailing" secondItem="V07-x1-Xk8" secondAttribute="trailing" id="TNP-D8-0xm"/>
+                            <constraint firstItem="a6C-5f-7OU" firstAttribute="leading" secondItem="Lpm-5m-y79" secondAttribute="leading" id="ToZ-wV-IIu"/>
+                            <constraint firstItem="Bj7-j1-uXU" firstAttribute="top" secondItem="0Qq-q3-UlS" secondAttribute="top" id="UH7-jp-hS3"/>
+                            <constraint firstItem="V07-x1-Xk8" firstAttribute="leading" secondItem="WHn-DP-Ob4" secondAttribute="leading" id="XBS-hE-EXT"/>
+                            <constraint firstItem="Lpm-5m-y79" firstAttribute="trailing" secondItem="Bj7-j1-uXU" secondAttribute="trailing" id="XOu-Eq-eli"/>
+                            <constraint firstItem="Lpm-5m-y79" firstAttribute="bottom" secondItem="Wuo-wu-Ypa" secondAttribute="bottom" id="Z2x-Du-53Z"/>
+                            <constraint firstItem="0EN-Qf-TQB" firstAttribute="leading" secondItem="a6C-5f-7OU" secondAttribute="trailing" constant="16" id="bJF-J4-2hc"/>
+                            <constraint firstItem="nQc-lk-uYw" firstAttribute="trailing" secondItem="r0X-yL-w6R" secondAttribute="trailing" id="eIN-wO-5S4"/>
+                            <constraint firstItem="Wuo-wu-Ypa" firstAttribute="trailing" secondItem="0Qq-q3-UlS" secondAttribute="trailing" id="eob-sJ-7kw"/>
+                            <constraint firstItem="nQc-lk-uYw" firstAttribute="bottom" secondItem="a6C-5f-7OU" secondAttribute="bottom" id="gFY-0t-oS4"/>
+                            <constraint firstItem="WHn-DP-Ob4" firstAttribute="top" secondItem="V07-x1-Xk8" secondAttribute="bottom" constant="41" id="iz4-9j-Kon"/>
+                            <constraint firstItem="yD8-4p-RNm" firstAttribute="trailing" secondItem="CG1-2V-IKa" secondAttribute="trailing" id="jE0-sA-bkc"/>
+                            <constraint firstItem="r0X-yL-w6R" firstAttribute="bottom" secondItem="Lpm-5m-y79" secondAttribute="bottom" id="jyN-hh-1L9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="WHn-DP-Ob4" secondAttribute="bottom" constant="41" id="kLu-TW-Svq"/>
+                            <constraint firstItem="yD8-4p-RNm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="28" id="mJD-3o-Owq"/>
+                            <constraint firstItem="yD8-4p-RNm" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="mRg-E1-NVU"/>
+                            <constraint firstItem="nQc-lk-uYw" firstAttribute="top" secondItem="CG1-2V-IKa" secondAttribute="bottom" constant="48" id="p5y-kh-O1s"/>
+                            <constraint firstItem="Bj7-j1-uXU" firstAttribute="centerX" secondItem="WHn-DP-Ob4" secondAttribute="centerX" id="pFy-ZC-dnv"/>
+                            <constraint firstItem="V07-x1-Xk8" firstAttribute="top" secondItem="Bj7-j1-uXU" secondAttribute="top" id="qNc-YT-52S"/>
+                            <constraint firstItem="V07-x1-Xk8" firstAttribute="bottom" secondItem="Bj7-j1-uXU" secondAttribute="bottom" id="rDP-4D-dqt"/>
+                            <constraint firstItem="nQc-lk-uYw" firstAttribute="top" secondItem="a6C-5f-7OU" secondAttribute="top" id="vIL-NE-03l"/>
+                            <constraint firstItem="a6C-5f-7OU" firstAttribute="top" secondItem="0EN-Qf-TQB" secondAttribute="top" id="yVb-wF-7IV"/>
+                            <constraint firstItem="r0X-yL-w6R" firstAttribute="top" secondItem="Lpm-5m-y79" secondAttribute="top" id="zsn-Ah-D4f"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="geralt1" destination="nQc-lk-uYw" id="rzd-DS-zna"/>
+                        <outlet property="geralt2" destination="a6C-5f-7OU" id="ACh-Ua-om5"/>
+                        <outlet property="geralt3" destination="0EN-Qf-TQB" id="Qta-He-zfJ"/>
+                        <outlet property="geralt4" destination="r0X-yL-w6R" id="6s3-un-pLW"/>
+                        <outlet property="geralt5" destination="Lpm-5m-y79" id="Cnd-nk-wWJ"/>
+                        <outlet property="geralt6" destination="Wuo-wu-Ypa" id="4H7-qk-II2"/>
+                        <outlet property="geralt7" destination="V07-x1-Xk8" id="khS-vo-hYE"/>
+                        <outlet property="geralt8" destination="Bj7-j1-uXU" id="E7F-Yd-eAC"/>
+                        <outlet property="geralt9" destination="0Qq-q3-UlS" id="ESj-Nn-EIv"/>
+                        <outlet property="highScoreLabel" destination="WHn-DP-Ob4" id="YPF-0Y-VyX"/>
+                        <outlet property="scoreLabel" destination="CG1-2V-IKa" id="GcL-DJ-PTr"/>
+                        <outlet property="timeLabel" destination="yD8-4p-RNm" id="N5R-gs-Rwu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="35.877862595419849" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="geraltOfRivia" width="820" height="740"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
